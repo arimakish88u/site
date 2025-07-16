@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gordon's Shell - Premium Corgi Breeder</title>
+    <title>Питомник Gordon's Shell</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-content">
-                <h1 class="logo">Питомник Gordon's Shell</h1>
-            </div>
+        <div class="container header-content">
+            <h1 class="logo">Питомник Gordon's Shell</h1>
         </div>
     </header>
 
     <main>
-        <div class="container">
-            <section class="hero-section">
+        <section class="hero-section">
+            <div class="container">
                 <h2 class="hero-title">Ваш любимец уже здесь!</h2>
                 <p class="hero-subtitle">Умная порода, воспитанная с любовью</p>
-            </section>
+            </div>
+        </section>
 
-            <section class="dogs-grid">
+        <section class="dogs-section">
+            <div class="container dogs-grid">
+                <!-- Dog Card 1 -->
                 <div class="dog-card">
                     <div class="dog-image">
                         <div class="carousel-container">
                             <div class="carousel-images">
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kyle - Corgi puppy">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kyle playing">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1546975490-e8b92a360b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kyle portrait">
-                                </div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kyle+1" alt="Kyle Image 1"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kyle+2" alt="Kyle Image 2"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kyle+3" alt="Kyle Image 3"></div>
                             </div>
                             <button class="carousel-nav prev" onclick="changeSlide(this, -1)">‹</button>
                             <button class="carousel-nav next" onclick="changeSlide(this, 1)">›</button>
@@ -53,19 +49,14 @@
                     </div>
                 </div>
 
+                <!-- Dog Card 2 -->
                 <div class="dog-card">
                     <div class="dog-image">
                         <div class="carousel-container">
                             <div class="carousel-images">
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kaiser - Corgi puppy">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1612536057832-2ff7ead58194?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kaiser playing">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kaiser portrait">
-                                </div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kaiser+1" alt="Kaiser Image 1"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kaiser+2" alt="Kaiser Image 2"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kaiser+3" alt="Kaiser Image 3"></div>
                             </div>
                             <button class="carousel-nav prev" onclick="changeSlide(this, -1)">‹</button>
                             <button class="carousel-nav next" onclick="changeSlide(this, 1)">›</button>
@@ -83,19 +74,14 @@
                     </div>
                 </div>
 
+                <!-- Dog Card 3 -->
                 <div class="dog-card">
                     <div class="dog-image">
                         <div class="carousel-container">
                             <div class="carousel-images">
-                                <div class="carousel-image">
-                                    <img src="photos/2Fq6Qm38_GJv_ke9bFh4VW1qI5kJQOzFKpUVC5ZXvvalJn1cLjxuPvCNP4IPq7CPV24Q-4tmt1dDce4Lc48O4N-r.jpg" alt="Kylie - Corgi puppy">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="photos/2Fq6Qm38_GJv_ke9bFh4VW1qI5kJQOzFKpUVC5ZXvvalJn1cLjxuPvCNP4IPq7CPV24Q-4tmt1dDce4Lc48O4N-r.jpg" alt="Kylie playing">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="photos\pmdE2LJ1JPhiBZYf12Tt-CmCMzryFMkHWVZocbCGQaqTqmdKeCnt0IeIBj8_Yc1TZIGPpnuzWUEAi70FjS-Y9I0v.jpg" alt="Kylie portrait">
-                                </div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kylie+1" alt="Kylie Image 1"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kylie+2" alt="Kylie Image 2"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kylie+3" alt="Kylie Image 3"></div>
                             </div>
                             <button class="carousel-nav prev" onclick="changeSlide(this, -1)">‹</button>
                             <button class="carousel-nav next" onclick="changeSlide(this, 1)">›</button>
@@ -113,19 +99,14 @@
                     </div>
                 </div>
 
+                <!-- Dog Card 4 -->
                 <div class="dog-card">
                     <div class="dog-image">
                         <div class="carousel-container">
                             <div class="carousel-images">
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kelly - Corgi puppy">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1620421680010-0766ff230392?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kelly playing">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Kelly portrait">
-                                </div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kelly+1" alt="Kelly Image 1"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kelly+2" alt="Kelly Image 2"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kelly+3" alt="Kelly Image 3"></div>
                             </div>
                             <button class="carousel-nav prev" onclick="changeSlide(this, -1)">‹</button>
                             <button class="carousel-nav next" onclick="changeSlide(this, 1)">›</button>
@@ -143,19 +124,14 @@
                     </div>
                 </div>
 
+                <!-- Dog Card 5 -->
                 <div class="dog-card">
                     <div class="dog-image">
                         <div class="carousel-container">
                             <div class="carousel-images">
-                                <div class="carousel-image">
-                                    <img src="photos\2Fq6Qm38_GJv_ke9bFh4VW1qI5kJQOzFKpUVC5ZXvvalJn1cLjxuPvCNP4IPq7CPV24Q-4tmt1dDce4Lc48O4N-r.jpg" alt="Kirk - Corgi puppy">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="photos\2Fq6Qm38_GJv_ke9bFh4VW1qI5kJQOzFKpUVC5ZXvvalJn1cLjxuPvCNP4IPq7CPV24Q-4tmt1dDce4Lc48O4N-r.jpg" alt="Kirk playing">
-                                </div>
-                                <div class="carousel-image">
-                                    <img src="photos\2Fq6Qm38_GJv_ke9bFh4VW1qI5kJQOzFKpUVC5ZXvvalJn1cLjxuPvCNP4IPq7CPV24Q-4tmt1dDce4Lc48O4N-r.jpg" alt="Kirk portrait">
-                                </div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kirk+1" alt="Kirk Image 1"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kirk+2" alt="Kirk Image 2"></div>
+                                <div class="carousel-image"><img src="https://via.placeholder.com/400x280?text=Kirk+3" alt="Kirk Image 3"></div>
                             </div>
                             <button class="carousel-nav prev" onclick="changeSlide(this, -1)">‹</button>
                             <button class="carousel-nav next" onclick="changeSlide(this, 1)">›</button>
@@ -172,11 +148,10 @@
                         <div class="dog-price">₽ -----</div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                
-            </section>
-
-            <section class="contact-section">
+         <section class="contact-section">
                 <h2 class="contact-title">Контакты</h2>
                 <div class="contact-info">
                     <div class="contact-item">
@@ -199,9 +174,16 @@
                     </div>
                 </div>
             </section>
-        </div>
     </main>
 
-    <script src="script.js"></script>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" style="display: none;">
+        <span class="lightbox-close" onclick="closeLightbox()">×</span>
+        <div class="lightbox-content">
+            <img src="" alt="Lightbox Image" id="lightbox-image">
+            <button class="lightbox-nav prev" onclick="changeLightboxSlide(-1)">‹</button>
+            <button class="lightbox-nav next" onclick="changeLightboxSlide(1)">›</button>
+        </div>
+    </div>
 </body>
 </html>
