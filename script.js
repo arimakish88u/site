@@ -90,7 +90,7 @@ function changeSlide(button, direction) {
         }
     });
     
-    const newSlide = (currentSlide + direction + 3) % 3;
+    const newSlide = (currentSlide + direction + 4) % 4; // images in the card
     
     carousel.style.transform = `translateX(-${newSlide * 100}%)`;
     
